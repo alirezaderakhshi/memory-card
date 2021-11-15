@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: Acme
+  }
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:10px;
+  line-height: 200%;
+}
+
+h1,h2,h3 {
+    text-align: center;
+    color:slategray;
+  }
+
+#show_form_button {
+    align-items: center;
+    justify-content: center;
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Acme;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#question_form {
+  display: none;
+  border-style:dotted;
+  border-radius: 12px;
+  border-color:lightcoral;
+  padding: 20px;
+  margin:15px;
+}
+
+#ok_button{
+  background-color: lightcoral; 
+  border-style:hidden;
+  border-radius: 15px;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#edit_button{
+  background-color: lightcoral; 
+  border-style:hidden;
+  border-radius: 15px;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#cancel_button{
+  display: inline-block;
+  background-color:firebrick; 
+  border-style:hidden;
+  border-radius: 15px;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#edit_cancel_button{
+  display: none;
+  background-color:firebrick; 
+  border-style:hidden;
+  border-radius: 15px;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#all_questions{
+  display: block;
+  margin:60px;
+}
+
+.cards{
+  display:inline-block;
+  width: 300px;
+  height: 300px;
+  border-style:dashed ;
+  border-color: darkorange;
+  border-radius: 10px;
+  padding:10px;
+  margin: 20px;
+}
+
+
+
+button[id^="show_btn"]{
+  background-color:chartreuse; 
+  border-style: hidden;
+  border-radius:20px;
+  color: white;
+  padding:9px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Acme;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button[id^="remove"]{
+  background-color:crimson; 
+  border-style: hidden;
+  color: white;
+  padding:6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Acme;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button[id^="edit"]{
+  background-color:blueviolet; 
+  border-style: hidden;
+  color: white;
+  padding:6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Acme;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+h3[id^="answer"]{
+  display: none;
+}
+
+button[id^="hide_btn"]{
+  display:none;
+  background-color:goldenrod; 
+  border-style: hidden;
+  border-radius:20px;
+  color: white;
+  padding:9px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Acme;
+  margin: 10px;
+  cursor: pointer;
+}

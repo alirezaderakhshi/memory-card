@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet" />
+		<script src="script.js"></script>
+	</head>
+	<body>
+        <div class=container>
+            <h1>Memory Cards</h1>
+        </div>
+        <div class="container">
+            <button id="show_form_button" onclick="showForm()" >Add Question</button>
+        </div>
+        <div class="container">
+            <form id="question_form">
+                <label for="question">Question</label><br>
+                <input type="text" id="question" name="question" placeholder="Write Your Question"><br>
+                <label for="answer">Answer</label><br>
+                <input type="text" id="answer" name="answer" placeholder="Write The Answer"><br>
+                <input type="button" id="ok_button" value="OK" onclick="addQuestion()">
+                <input type="button" id="edit_button" value="Edit" onclick="editQuestion()">
+                <input type="button" id="cancel_button" value="Cancel" onclick="cancel()">
+                <input type="button" id="edit_cancel_button" value="Cancel" onclick="cancel()">
+
+            </form> 
+        </div>
+        <div id="all_questions"></div>
+    </body>
+</html>
